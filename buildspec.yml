@@ -10,8 +10,6 @@ phases:
     commands:
       - echo "Synthesizing the CDK stack"
       - cdk synth
-      - echo "Deploying the CDK stack"
-      - cdk deploy --require-approval never
 artifacts:
   base-directory: cdk.out
   files:
