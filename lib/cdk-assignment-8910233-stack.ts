@@ -21,7 +21,7 @@ export class CdkAssignment8910233Stack extends cdk.Stack {
       code: lambda.Code.fromInline(`
         exports.handler = async function(event) {
           console.log('Lambda invoked!');
-          return { statusCode: 200, body: 'Hello, Puneet!' };
+          return { statusCode: 200, body: 'Hello, Puneet!This is an updated Lambda Version' };
         }
       `),
       environment: {
